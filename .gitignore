@@ -1,0 +1,31 @@
+# Segredos — NUNCA subir
+.env
+*.pkl
+*.log
+
+# Sessão do navegador (cookies/login)
+.browser_session/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Ambiente virtual
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Windows
+Thumbs.db
+desktop.ini
