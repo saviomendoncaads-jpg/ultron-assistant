@@ -1,10 +1,10 @@
-# 🤖 Ultron — Assistente de Voz com IA
+#  Ultron — Assistente de Voz com IA
 
 Assistente de voz pessoal para Windows com interface HUD sci-fi, controle total do sistema operacional, memória baseada em notas do Obsidian e personalidade sofisticada inspirada no Ultron.
 
 ---
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 | Categoria | Recursos |
 |---|---|
@@ -18,7 +18,7 @@ Assistente de voz pessoal para Windows com interface HUD sci-fi, controle total 
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 ```
 ultron-assistant/
@@ -55,7 +55,7 @@ ultron-assistant/
 
 ---
 
-## ⚙️ Como Funciona — Fluxo Completo
+##  Como Funciona — Fluxo Completo
 
 ```
 Microfone
@@ -91,7 +91,7 @@ Microfone
 
 ---
 
-## 🧠 Sistema de Intenção (Intent Routing)
+##  Sistema de Intenção (Intent Routing)
 
 O classificador opera em duas camadas para máxima precisão com mínimo custo de tokens:
 
@@ -110,7 +110,7 @@ Distingue conversa de pesquisa para casos ambíguos:
 
 ---
 
-## 🤖 Personalidade do Ultron
+##  Personalidade do Ultron
 
 O assistente é **proativo** e usa o histórico da conversa. Exemplos de comportamento:
 
@@ -124,7 +124,7 @@ O assistente é **proativo** e usa o histórico da conversa. Exemplos de comport
 
 ---
 
-## 🛡️ Fallback de Modelos (Rate Limit)
+##  Fallback de Modelos (Rate Limit)
 
 Quando o modelo primário atinge o limite de tokens diários (100k/dia gratuito), o sistema troca automaticamente:
 
@@ -137,7 +137,7 @@ Cada modelo tem **cota separada** na Groq — efetivamente ~400k tokens/dia no p
 
 ---
 
-## 🛠️ Ferramentas Disponíveis (Skills)
+##  Ferramentas Disponíveis (Skills)
 
 ### Sistema Operacional
 | Ferramenta | Descrição |
@@ -188,7 +188,7 @@ Cada modelo tem **cota separada** na Groq — efetivamente ~400k tokens/dia no p
 
 ---
 
-## 🧠 Brain Engine (RAG com Obsidian)
+##  Brain Engine (RAG com Obsidian)
 
 O `BrainEngine` indexa todo o vault do Obsidian localmente, sem API externa:
 
@@ -216,7 +216,7 @@ Top-K chunks relevantes → injetados no prompt do LLM
 
 ---
 
-## 🖥️ Interface HUD
+##  Interface HUD
 
 Janela frameless de **500×580px**, 60fps, renderizada com `QPainter` puro:
 
@@ -230,7 +230,7 @@ Janela frameless de **500×580px**, 60fps, renderizada com `QPainter` puro:
 
 ---
 
-## 🚀 Instalação
+##  Instalação
 
 ### Pré-requisitos
 - Windows 10/11
@@ -293,7 +293,7 @@ ULTRON.bat
 
 ---
 
-## 📋 Exemplos de Comandos de Voz
+##  Exemplos de Comandos de Voz
 
 ### Conversação
 ```
@@ -340,7 +340,7 @@ ULTRON.bat
 
 ---
 
-## 🔧 Configuração Avançada
+##  Configuração Avançada
 
 ### Contatos (WhatsApp)
 Edite `contacts.json` para mapear apelidos a nomes reais:
@@ -367,7 +367,7 @@ AUDIO_SILENCE_DURATION=1.8     # segundos de silêncio para encerrar gravação
 
 ---
 
-## 🔑 Dependências Principais
+##  Dependências Principais
 
 | Pacote | Versão | Uso |
 |---|---|---|
@@ -384,7 +384,7 @@ AUDIO_SILENCE_DURATION=1.8     # segundos de silêncio para encerrar gravação
 
 ---
 
-## 📁 Arquivos Ignorados pelo Git
+##  Arquivos Ignorados pelo Git
 
 | Arquivo/Pasta | Motivo |
 |---|---|
@@ -395,6 +395,6 @@ AUDIO_SILENCE_DURATION=1.8     # segundos de silêncio para encerrar gravação
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Uso pessoal. Projeto desenvolvido para automação do ambiente pessoal de trabalho.
